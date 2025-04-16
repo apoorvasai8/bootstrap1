@@ -20,6 +20,9 @@
         height: 40px;
         width: 40px;
       }
+      nav {
+        background-color: pink;
+      }
       .container {
         display: flex;
         flex-wrap: wrap;
@@ -28,8 +31,7 @@
         justify-content: center;
         padding: 20px;
       }
-      .con {
-      }
+
       .card {
         padding: 20px;
         width: 250px;
@@ -67,14 +69,15 @@
         text-align: center;
       }
       .hero-container {
-        height: 80vh;
+        height: 55vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-image: linear-gradient(
-          120deg,
+          160deg,
           rgb(255, 117, 117),
           rgb(211, 228, 171)
         );
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -94,16 +97,17 @@
         align-items: center;
       }
       h3 {
+        font-size: 54px;
         color: rgb(46, 27, 223);
       }
       h3 span {
         color: orangered;
         font-weight: bolder;
-        font-size: 32px;
+        /* font-size: 52px; */
       }
       .para {
         color: rgb(78, 54, 9);
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bolder;
       }
       .contact-btn {
@@ -124,7 +128,7 @@
         color: aliceblue;
       }
       .container3 {
-        height: 100vh;
+        height: 45vh;
         width: 100vw;
         background-color: rgb(207, 198, 201);
         display: flex;
@@ -138,13 +142,14 @@
       .container3-text span {
         color: rgb(201, 70, 22);
         font-size: 32px;
+        font-weight: bold;
       }
       .container3-text {
         padding: 10px 45px;
-        font-size: 28px;
+        font-size: 24px;
       }
       .contact-section {
-        height: 100vh;
+        height: 55vh;
         display: flex;
         flex-direction:column;
         justify-content: center;
@@ -182,11 +187,24 @@
           display: flex;
           flex-direction: column;
         }
+        h3{
+          text-align: center;
+        }
+        .contact-section{
+          height: 55vh;
+
+        }
+        .container3 {
+          height : 100vh;
+        }
+        .hero-container {
+          height: 100vh;
+        }
       }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-secondary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#hero"
           ><img
